@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> </title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2> Sign In </h2>
+          <p>Don't have an account?<mark> Sign Up </mark></p>
+          <form action="validation.php" methods="post">
+            
+            <div class="form-group">
+              <label>Email </label>
+              <input type="text" name="user" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>password</label>
+              <input type="password" name="password" class="form-control">
+            </div>
+            
+            <button class="btn btn-primary"> Sign In </button>
+            <button class="btn btn-seondary"> Forgot password</button>
+          </form>
+        </div>
+      </div class="col-lg-6">
+      <h2>Sign Up </h2>
+      <p>Already have an account? <mark> Sign In</mark> </p>
+      <form action="validation.php" methods="post">
+        <div class="form-group">
+          <label>Email </label>
+          <input type="text" name="users" class="form-control">
+        </div>
+        
+        <div class="form-group">
+          <label> password </label>
+          <input type="password" name="password" class="form-control">
+        </div>
+        
+        <div class="form-group">
+          <label>Secret</label>
+          <input type="Secret" name="Secret" class="form-control">
+        </div>
+        <button class="btn-primary"> SignUp</button>
+      </form>
+    </div>
+    
+    </div class ="col-lg-6">
+    <h2>Contact Form and Contact List Page</h2>
+    <h3>Add Contacts </h3>
+    <form action="validation.php" methods="post">
+    <div class="form-group">
+    <label>Name</label>
+    <input type="text" name="users" class="form-control">
+    </div>
+    <div class="form-group">
+    <label>Ph No </label>
+    <input type="Ph No" name="Ph No" class="form-control">
+    </div>
+    <div class="form-group"
+    <label>Email</label>
+    <input type="Email" name="Email" class="form-control">
+    </div>
+    <button class="btn-primary"> Save </button>
+    </form>
+  </div>
+</div>
+
+</dody>
+</html> 
